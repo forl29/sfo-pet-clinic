@@ -14,7 +14,7 @@
 	</parent>
 	<groupId>springframework.learning</groupId>
 	<artifactId>sfo-pet-clinic</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>sfo-pet-clinic</name>
 	<description>SFO model.Pet Clinic Project</description>
 	<properties>
@@ -41,7 +41,7 @@
 	<scm>
 		<url>https://github.com/forl29/sfo-pet-clinic</url>
 		<connection>scm:git:https://github.com/forl29/sfo-pet-clinic.git</connection>
-    <tag>HEAD</tag>
+    <tag>sfo-pet-clinic-0.0.2</tag>
   </scm>
 
 </project>
