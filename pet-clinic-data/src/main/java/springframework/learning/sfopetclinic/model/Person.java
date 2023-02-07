@@ -1,6 +1,6 @@
 package springframework.learning.sfopetclinic.model;
 
-public class Person {
+public class Person extends BaseEntity{
 
     private String firstName;
     private String lastName;
