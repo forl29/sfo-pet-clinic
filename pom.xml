@@ -38,8 +38,8 @@
 	</build>
 
 	<scm>
-		<developerConnection>scm:git:git@github.com:forl29/sfo-pet-clinic.git</developerConnection>
-	  <tag>sfo-pet-clinic-0.0.1</tag>
+		<url>https://github.com/forl29/sfo-pet-clinic</url>
+		<connection>scm:git:https://github.com/forl29/sfo-pet-clinic.git</connection>
   </scm>
 
 </project>
