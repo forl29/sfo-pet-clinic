@@ -6,8 +6,6 @@ import springframework.learning.sfopetclinic.model.Owner;
 import springframework.learning.sfopetclinic.model.Vet;
 import springframework.learning.sfopetclinic.services.OwnerService;
 import springframework.learning.sfopetclinic.services.VetService;
-import springframework.learning.sfopetclinic.services.map.OwnerServiceMap;
-import springframework.learning.sfopetclinic.services.map.VetServiceMap;
 
 @Component
 public class DataLoader implements CommandLineRunner {
@@ -15,9 +13,9 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
 
-    public DataLoader(){
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
+    public DataLoader(OwnerService ownerService, VetService vetService){
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override
